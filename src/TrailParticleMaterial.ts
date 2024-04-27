@@ -58,7 +58,7 @@ varying float vPercent;
 #define SG_HEAD
 
 void main() {
-  gl_FragColor = vec4(1);
+  gl_FragColor = vec4(1.,0.68,0.0,1.);
   #define SG_BODY
   gl_FragColor.a *= vPercent;
 }`;
